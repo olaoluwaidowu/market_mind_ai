@@ -11,10 +11,6 @@
 8. [Code Structure](#code-structure)
 9. [Testing](#testing)
 10. [Deployment](#deployment)
-11. [Future Enhancements](#future-enhancements)
-12. [Troubleshooting](#troubleshooting)
-13. [Contributing](#contributing)
-14. [License](#license)
 
 ---
 
