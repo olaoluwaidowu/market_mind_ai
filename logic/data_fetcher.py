@@ -64,17 +64,17 @@ class CommodityDataFetcher:
             
             # Check for API errors
             if "Error Message" in data:
-                print(f"API Error: {data['Error Message']}")
+                print(f"API Error: {data['Error Message']}", flush=True)
                 return None
             
             if "Note" in data:
-                print(f"API Note: {data['Note']}")
+                print(f"API Note: {data['Note']}", flush=True)
                 return None
             
             # Extract data based on interval
             data_key = "data"
             if data_key not in data:
-                print(f"Unexpected API response structure: {data.keys()}")
+                print(f"Unexpected API response structure: {data.keys()}", flush=True)
                 return None
             
             # Convert to DataFrame
