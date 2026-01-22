@@ -75,6 +75,7 @@ class CommodityDataFetcher:
             data_key = "data"
             if data_key not in data:
                 print(f"Unexpected API response structure: {data.keys()}", flush=True)
+                print(data)
                 return None
             
             # Convert to DataFrame
